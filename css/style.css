@@ -28,11 +28,9 @@ header, section, footer, aside, nav, main, article, figure {
   body {
     font-family: Helvetica, Arial, sans-serif;
     color: rgba(0,0,0,.7);
-    max-width: 1000px;
     margin: 0 auto;
     padding: 1em;
     font-size: 87.5%;
-    line-height: 1.5em;
 }
 
 h1 {
@@ -148,16 +146,57 @@ a:hover {
       color: rgba(0,0,0,.6);
       border-bottom: 0.05em solid rgba(0,0,0,.2);
   }
+
+  .site-main {
+    overflow-x: hidden;
+  }
   
   section {
-      padding: 0 0 3em 0;
+      padding: 4em 0;
+      min-height: 101vh;
   }
   
   .hero {
       text-align: center;
-      padding: 10em 0 17em 0;
       margin-top: 0.1em;
       margin-bottom: 0.1em;
+      height: 100%;
+      color: rgb(225, 0, 255);
+  }
+
+  /* TYPEWRITTER EFFECT */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 6em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .typewriter {
+    width: 21.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #212121;
+    animation: cursor 1s step-start infinite, 
+      text 5s steps(18) alternate infinite;
+  }
+  
+  @keyframes cursor {
+    0%, 100% { 
+      border-color: #212121; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 21.5ch; 
+    }
   }
   
 
