@@ -27,7 +27,7 @@ header, section, footer, aside, nav, main, article, figure {
   /* #TYPOGRAPHY  */
   body {
     font-family: Helvetica, Arial, sans-serif;
-    color: rgba(0,0,0,.7);
+    background-color: black;
     margin: 0 auto;
     padding: 1em;
     font-size: 87.5%;
@@ -42,7 +42,7 @@ h1 {
 
 /* #LINKS */
 a {
-  color: rgba(0, 0, 0, 0.759);;
+  color: rgb(238, 238, 238);;;
   text-decoration: none;
 }
 
@@ -133,17 +133,18 @@ a:hover {
       margin: 0 .5em;
       padding: 0;
       display: inline-block;
+      color: rgb(238, 238, 238);
   }
   
   .site-navigation a {
       display: block;
       padding: 1em .5em;
-      color: rgba(0,0,0,.4);
+      color: rgb(255, 255, 255);
   }
   
   .site-navigation a:hover,
   .site-navigation a.selected {
-      color: rgba(0,0,0,.6);
+      color: rgb(255, 255, 255);
       border-bottom: 0.05em solid rgba(0,0,0,.2);
   }
 
@@ -161,7 +162,7 @@ a:hover {
       margin-top: 0.1em;
       margin-bottom: 0.1em;
       height: 100%;
-      color: rgb(225, 0, 255);
+      color: rgb(255, 243, 137);
   }
 
   /* TYPEWRITTER EFFECT */
@@ -173,6 +174,10 @@ a:hover {
     font-size: 6em;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
+    background-image:url(../img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+    background-size: cover;
+    background-position: center top;
+    padding: 12% 0;
   }
   
   .typewriter {
