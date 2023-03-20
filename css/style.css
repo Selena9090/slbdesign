@@ -38,6 +38,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     line-height: 55px;
+    color: rgb(238, 238, 238);
 }
 
 /* #LINKS */
@@ -63,8 +64,12 @@ a:hover {
   }
   
   .subheader {
-    color: rgba(0,0,0,.5);
+    color: rgb(238, 238, 238);
     font-weight: normal;
+  }
+
+  p {
+    color: rgb(238, 238, 238);
   }
   
   .full-width {
@@ -216,6 +221,7 @@ a:hover {
       }
       .one-third.column {
           width: 32%;
+          color: rgb(238, 238, 238);
       }
       .two-thirds.column {
           width: 60%;
