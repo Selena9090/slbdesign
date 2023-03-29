@@ -1,178 +1,226 @@
 <!doctype html>
+
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>My Portfolio</title>
 
-    <!-- HTML5 -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+    <meta charset="utf-8" />
+
+    <title>SLB Design</title>
+
+    <meta name="description" content="A simple portfolio site." />
 
     <!-- VIEWPORT FOR MOBILE -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- FOR IE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <!-- MAIN CSS FILE -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <main class="site-main fade-and-move-in">
+    <header class="site-header fade-in-and-down">
 
-        <header class="site-header">
-            <div class="site-branding">
-                <div class="logomark">
-                    <a href="index.html"><img src="img/Crescent-Moon-PNG-Photo.png" alt="Logo" width="80"
-                            height="80"></a>
-                </div>
-            </div>
-            <nav class="site-navigation">
-                <ul>
-                    <li class="selected">
-                        <a href="index.html#work" class="selected">Work</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-        </header>
+        <div class="site-identity">
 
-        <section class="hero">
-            <div class="container">
-                <div class="typewriter">Welcome to SLB Design</div>
+            <h1><a href="index.html">Selena Lytle-Brinck</a></h1>
+
+        </div>
+
+        <nav class="site-navigation">
+
+            <ul>
+
+                <li><a href="index.html" class="selected">Work</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="featuredproject">
+
+            <div class="image-wrapper">
+
+                <a href="booktrilogy/index.html"><img src="img/BookTrilogy_Mockup.jpg" alt="Book Trilogy" /></a>
+
             </div>
+
+            <div class="text-wrapper">
+
+                <h2 class="headline">Book Trilogy</h2>
+
+                <h3 class="subheadline">Project 1</h3>
+
+                <p>
+                    I picked 3 episodes from the podcast Criminal by Phoebe Judge
+                    and created 3 book covers that should represent the tone and
+                    tenor of the content. Each cover was created in the theme
+                    of the podcasts.
+                </p>
+
+                <a href="booktrilogy/index.html" class="button">View Project</a>
+
             </div>
+
         </section>
 
-        <section id="work" class="text-centered">
+        <section class="featuredproject swapped">
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="typography.html">
-                            <img src="img/typographybookmockup.jpg" alt="typography book">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Typography Book</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+            <div class="image-wrapper">
+
+                <a href="#"><img src="img/hello-vintage-website-mockup.jpg" alt="Hello Vintage website" /></a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="olympic-pictograms.html">
-                            <img src="img/olympic-pictograms.png" alt="Olympic Pictograms">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Olympic Pictograms</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+            <div class="text-wrapper">
+
+                <h2 class="headline">Hello Vintgae</h2>
+
+                <h3 class="subheadline">Project 2</h3>
+
+                <p>
+                    Hello Vintage is a 90's inspired vintage t-shirt brand targeted
+                    for teenagers and young adults who are trying to find creative
+                    ways to showcase their individualities through fashion.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="tourism-logo.html">
-                            <img src="img/Madrid.jpg" alt="tourism logo">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Tourism Logo</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+        </section>
+
+        <section class="featuredproject">
+
+            <div class="image-wrapper">
+
+                <a href="#"><img src="img/Madrid.jpg" alt="Madrid" /></a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="book-trilogy.html">
-                            <img src="img/BookTrilogy_Mockup.jpg" alt="Book Trilogy">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Book Trilogy</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+            <div class="text-wrapper">
+
+                <h2 class="headline">Tourism Logo</h2>
+
+                <h3 class="subheadline">Project 3</h3>
+
+                <p>
+                    I was assigned to design a logo for an international tourist city.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="hellovintage.html">
-                            <img src="img/hello-vintage-website-mockup.jpg" alt="Hello Vintage">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Hello Vintage</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+        </section>
+
+        <section class="featuredproject swapped">
+
+            <div class="image-wrapper">
+
+                <a href="#"><img src="img/typography.jpg" alt="typography book" /></a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="street-artist-book.html">
-                            <img src="img/placeholder-1x1.gif" alt="Street Artists Book">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Street Artists</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+            <div class="text-wrapper">
+
+                <h2 class="headline">Typography Book</h2>
+
+                <h3 class="subheadline">Project 4</h3>
+
+                <p>
+                    This is an eight-chapter book that will serve as a reference tool
+                    for my future educational and professional pursuits.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="internship.html">
-                            <img src="img/aquarium_front.jpg" alt="Internship">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Internship: Waikiki Aquarium</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+        </section>
+
+        <section class="featuredproject">
+
+            <div class="image-wrapper">
+
+                <a href="#"><img src="img/olympic-pictograms.png" alt="Olympic Pictograms" /></a>
+
             </div>
 
-            <div class="thumbgrid">
-                <ul class="thumbs">
-                    <li><a href="other.html">
-                            <img src="img/placeholder-1x1.gif" alt="Other Works">
-                            <span class="thumb-caption">
-                                <span class="thumb-caption-text">
-                                    <h3>Other Works</h3>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+            <div class="text-wrapper">
+
+                <h2 class="headline">Olympic Pictograms</h2>
+
+                <h3 class="subheadline">Project 5</h3>
+
+                <p>
+                    I was assigned to create a set of at least 4 pictograms
+                    that represent various events in the Olympic Games.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+
+            </div>
+
+        </section>
+
+        <section class="featuredproject swapped">
+
+            <div class="image-wrapper">
+
+                <a href="#"><img src="img/aquarium_front.jpg" alt="Waikiki Aquarium Front Building" /></a>
+
+            </div>
+
+            <div class="text-wrapper">
+
+                <h2 class="headline">Internship: Waikiki Aquarium</h2>
+
+                <h3 class="subheadline">Internship Program</h3>
+
+                <p>
+                    I interned at the Waikiki Aquarium and help developed, designed,
+                    and print supporting materials for exhibition displays.
+                </p>
+
+                <a href="#" class="button">View Project</a>
+
             </div>
 
         </section>
 
     </main>
 
-    <footer class="site-footer fade-and-move-in">
+    <footer class="site-footer">
+
         <nav class="site-navigation">
+
             <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="index.html#work">Work</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
             </ul>
+
         </nav>
 
     </footer>
+
+    <script src="../js/scripts.js"></script>
 
 </body>
 
