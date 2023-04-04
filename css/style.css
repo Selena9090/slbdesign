@@ -508,7 +508,7 @@ height: 100%;
 }
 
 
-/* BOOK TRILOGY STYLING */
+/* BOOK TRILOGY */
 
 .projectinfo .book-desc {
   text-align: justify;
@@ -547,3 +547,67 @@ height: 100%;
 .book-nav ul li a.selected {
   border-bottom: 2px solid #a3182d;
 }
+
+/* HELLO VINTAGE */
+.hellovintage-bg {
+  background-color: #e02985;
+}
+
+.page-projectdetail .hellovintage-hero {
+  background-color: #24272A;
+}
+
+.page-projectdetail .hellovintage-black {
+  background-color: #24272A;
+}
+
+.projectinfo .hellovintage-headline {
+  color: #EAF5DE;
+}
+
+.projectinfo .hellovintage-subheadline {
+  color: #25de00;
+}
+
+.projectinfo .hellovintage-desc {
+  color: #EAF5DE;
+  text-align: justify;
+}
+
+.hellovintage {
+  color: #25de00;
+}
+
+.collection-text {
+  color: #25de00;
+}
+
+.tshirt-text {
+  color: #EAF5DE;
+}
+
+.options {
+  color: #fbff01;
+  font-style: bold;
+  padding-top: 1.5em;
+}
+
+.options:hover {
+  text-shadow: 0px 0px 10px #000000;
+}
+
+.website-green {
+  color: #25de00;
+}
+
+.website-footer ul li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.two-col-darker {
+  background-color: #24272A;
+}
+
+
+
