@@ -250,7 +250,7 @@ video {
 
 /* CURSOR MESSAGE */
 .cursor {
-  border-right:2px solid #000;
+  border-right:2px solid rgb(255, 255, 255);
     white-space:nowrap;
     overflow:hidden;
     max-width:max-content;
@@ -269,7 +269,7 @@ video {
 }
 
 @keyframes cursorAnim{
-  from{border-right-color:#000;}
+  from{border-right-color:rgb(255, 255, 255);}
   to{border-right-color:transparent;}
 }
 
